@@ -24,7 +24,7 @@ public:
 	{
 		m_iSamples = sample;
 	};
-	//åˆ‡åŽ»å¼€å¤´çš„ç›´è¾¾æ³¢
+	//ÇÐÈ¥¿ªÍ·µÄÖ±´ï²¨
 	void cutSamples(int iZero)
 	{
 		memcpy(m_pData, m_pData + iZero, m_iSamples - iZero);
