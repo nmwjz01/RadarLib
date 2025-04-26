@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Transform">
+      <UniqueIdentifier>{b64426e8-ebc2-4dda-822a-c05f4ea5d842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Transform">
+      <UniqueIdentifier>{6c63af0a-1352-4e4d-b1b9-1e080ab55c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\IDS">
+      <UniqueIdentifier>{d0b59a9a-1436-4b4d-b2b4-7800a625b2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Mala">
+      <UniqueIdentifier>{a1e41617-cbd7-4fd7-87ba-27ea301708d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Implus">
+      <UniqueIdentifier>{71e6af6a-8cc9-4280-a156-a07b83711b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{6a971dc3-7349-431c-b00b-d064a200199e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Transform2Segy">
+      <UniqueIdentifier>{55c2b0dd-3144-4c1b-9fb5-40b571557bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Transform2Segy">
+      <UniqueIdentifier>{676cd86e-5820-437c-be45-6b670fcc1043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Segy">
+      <UniqueIdentifier>{6bcf292c-7b4d-4424-8568-d7de1f7f1414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RadarDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\TransformSegy.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\TransformBase.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\Transform3DRadar.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\TransformMala.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\TransformIDS.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\TransformDT.cpp">
+      <Filter>源文件\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceAlgorithmMatlab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceAlgorithmSimple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform2Segy\Transform2SegyBase.cpp">
+      <Filter>源文件\Transform2Segy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RadarDll.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\RadarDll.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSChannel.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSChannelBlob.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSChannelHeader.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSSwath.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSSwathFragment.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSTrace16.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS\IDSTrace32.h">
+      <Filter>头文件\IDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseChannel.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseChannelBlob.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseChannelHeader.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseCor.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseSwath.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseTime.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseTrace16.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Impluse\ImpluseTrace32.h">
+      <Filter>头文件\Implus</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaChannel.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaTrace32.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaTrace16.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaTime.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaSwath.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaChannelHeader.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Mala\MalaChannelBlob.h">
+      <Filter>头文件\Mala</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FSize.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PalSET.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformSegy.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformBase.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\Transform3DRadar.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformMala.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformIDS.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformIDS16-作废.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\TransformDT.h">
+      <Filter>头文件\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\RadarConst.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadarDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPhoto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform2Segy\Transform2SegyBase.h">
+      <Filter>头文件\Transform2Segy</Filter>
+    </ClInclude>
+    <ClInclude Include="Segy\SegyFileHeaderText.h">
+      <Filter>头文件\Segy</Filter>
+    </ClInclude>
+    <ClInclude Include="Segy\SegyFileHeaderBinary.h">
+      <Filter>头文件\Segy</Filter>
+    </ClInclude>
+    <ClInclude Include="Segy\SegyTrace.h">
+      <Filter>头文件\Segy</Filter>
+    </ClInclude>
+    <ClInclude Include="Segy\SegyChannel.h">
+      <Filter>头文件\Segy</Filter>
+    </ClInclude>
+    <ClInclude Include="Segy\SegySwathFile.h">
+      <Filter>头文件\Segy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RadarDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
