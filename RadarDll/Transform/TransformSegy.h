@@ -1,5 +1,5 @@
 /*
-* Fun:灏哠egy鏁版嵁杞寲涓篿prb銆乮prh鏍煎紡
+* Fun:将Segy数据转化为iprb、iprh格式
 */
 #include "TransformBase.h"
 
