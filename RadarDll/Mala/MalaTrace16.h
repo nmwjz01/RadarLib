@@ -1,28 +1,28 @@
 #pragma once
 
-class MalaTrace32
+class MalaTrace16
 {
 public:
-	MalaTrace32()
+	MalaTrace16()
 	{
 		m_pData = NULL;
-	}
-	~MalaTrace32()
+	};
+	~MalaTrace16()
 	{
 		if (NULL != m_pData)
 		{
-			free(m_pData);
+			free( m_pData );
 			m_pData = NULL;
 		}
-	}
+	};
 
-	void setTrace(long* pData, int iSample)
+	void setTrace(short* pData, int iSample)
 	{
 		m_iSamples = iSample;
 		m_pData    = pData;
-	}
+	};
 
-	void setTraceNum(int num)
+	void setTraceNum( int num )
 	{
 		m_iTraceNum = num;
 	};
@@ -31,14 +31,14 @@ public:
 		return m_iTraceNum;
 	};
 
-	long* getTrace()
+	short* getTrace()
 	{
 		return m_pData;
-	}
+	};
 	int getSamples()
 	{
 		return m_iSamples;
-	}
+	};
 	void setSamples(int sample)
 	{
 		m_iSamples = sample;
@@ -50,7 +50,8 @@ public:
 		m_iSamples = m_iSamples - iZero;
 	}
 private:
-	long* m_pData;
-	int   m_iSamples;
-	int   m_iTraceNum;
+	short* m_pData;
+	int    m_iSamples;
+	int    m_iTraceNum;
 };
+
